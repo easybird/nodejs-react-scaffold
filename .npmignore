@@ -1,0 +1,7 @@
+.idea
+.editorconfig
+.eslintrc.json
+.eslintignore
+.gitignore
+nodemon.json
+test

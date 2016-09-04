@@ -1,0 +1,59 @@
+{
+  "sass": {
+    "files": [
+      {
+        "src": "frontend/sass/nodejs-react-scaffold.scss",
+        "dest": "server/public/css/",
+        "file": "nodejs-react-scaffold.css"
+      }
+    ],
+    "hint": {
+      "src": [
+        "frontend/sass/**/*.scss",
+        "!frontend/sass/fontawesome/*.scss"
+      ]
+    },
+    "minify": {
+      "src": "server/public/css/nodejs-react-scaffold.css",
+      "dest": "server/public/css/",
+      "watch": [
+        "server/public/css/nodejs-react-scaffold.css"
+      ]
+    },
+    "watch": [
+      "frontend/sass/**/*.scss",
+      "node_modules/bootstrap-sass/assets/stylesheets/**/*.scss"
+    ],
+    "autoprefixer": {
+      "browsers": [
+        "Firefox >=27",
+        "Chrome >= 33",
+        "ie >= 9",
+        "Safari >= 7",
+        "iOS >= 7",
+        "Android >= 4.1"
+      ]
+    }
+  },
+  "js": {
+    "files": [
+      {
+        "src": "frontend/js",
+        "dest": "server/public/js/",
+        "file": "nodejs-react-scaffold.js"
+      },
+      {
+        "src": "frontend/js/react/scaffold",
+        "dest": "server/public/js/react/",
+        "file": "react-scaffold-app.js"
+      }
+    ],
+    "watch": [
+      "frontend/js/**/*.js"
+    ]
+  },
+  "swagger": {
+    "src": "node_modules/swagger-ui/dist/**",
+    "dest": "server/public/swagger/"
+  }
+}

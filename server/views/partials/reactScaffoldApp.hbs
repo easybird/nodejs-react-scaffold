@@ -1,0 +1,13 @@
+<noscript>
+    <div class="noscriptmsg">
+        You don"t have javascript enabled. Good luck with that.
+    </div>
+</noscript>
+<div id="react-scaffold-app">{{{react.reactScaffoldApp}}}</div>
+
+{{#contentFor "scripts"}}
+    <script>
+        var reactProps = {{{json react.reactProps}}}
+    </script>
+    <script src="/js/react/react-scaffold-app.js"></script>
+{{/contentFor}}

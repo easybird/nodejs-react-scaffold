@@ -1,0 +1,27 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "mocha": "true",
+    "jquery": "true"
+  },
+  "rules": {
+    "one-var": 0,
+    "one-var-declaration-per-line": 0,
+    "no-underscore-dangle": 0,
+    "max-len": 0,
+    "react/jsx-indent": [
+      0,
+      4
+    ],
+    "react/jsx-closing-bracket-location": 0,
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "comma-dangle": 0
+  }
+}

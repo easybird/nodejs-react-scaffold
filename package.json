@@ -71,5 +71,10 @@
     "webpack-closure-compiler": "^2.0.2",
     "webpack-stream": "^3.2.0"
   },
-  "author": "easybird"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:easybird/nodejs-react-scaffold.git"
+  },
+  "author": "easybird",
+  "homepage": "https://github.com/easybird/nodejs-react-scaffold#readme"
 }

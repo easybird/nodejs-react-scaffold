@@ -3,7 +3,7 @@
 ### Description:
 This repository is meant as a starting point for a Universal / Isomorphic React Application in a Node JS environment.
 
-This basic app contains:
+#### This basic app contains:
     - /react: A basic react app rendered in Node back-end
     - /rest: Rest route to include your rest API
     - /api: Swagger UI to document your rest API

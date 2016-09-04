@@ -10,6 +10,7 @@ This repository is meant as a starting point for a Universal / Isomorphic React 
     - /info, /health: Info / Health check routing
     - Multi Language support
     - Error routing
+    - Basic Mocha test setup
 
 ## Development
 --------------
